@@ -1,0 +1,167 @@
+body {
+  background-color: #1f001e;
+  font-family: 'Reddit Sans Condensed', sans-serif;
+  color: #FEFBFC;
+  margin: 0;
+}
+
+nav.navbar {
+  background-color: #1f001e;
+}
+
+nav .nav-link {
+  font-size: 1.25rem; /* Increase font size */
+  font-family: 'Reddit Sans Condensed', sans-serif; /* Apply custom font */
+  color: #FEFBFC !important; /* Text color */
+  padding: 10px 15px; /* Add spacing */
+  transition: color 0.3s ease; /* Smooth hover effect */
+}
+
+nav .nav-link:hover {
+  color: #BB7439 !important;/* Change color on hover */
+}
+
+.sub-title {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  font-family: 'Reddit Sans Condensed', sans-serif;
+  font-size: 4rem;
+  color: #FEFBFC;
+}
+.event-title {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.event-title h1 {
+  font-family: 'Reddit Sans Condensed', sans-serif;
+  font-size: 5.5rem;
+  color: #FEFBFC;
+  margin: 0;
+}
+
+.event-title h2 {
+  font-family: 'The Nautigal', cursive;
+  font-size: 4rem;
+  color: #BB7439;
+  margin-top: 10px;
+}
+
+.content-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 40px auto;
+  max-width: 80%;
+  padding: 20px;
+  border-radius: 10px;
+  background: #1f001e;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.content-container img {
+  max-width: 40%;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+
+.content-container .text-content {
+  max-width: 60%;
+}
+
+.content-container .text-content p {
+  font-family: 'Reddit Sans Condensed', sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.8;
+  margin-bottom: 20px;
+  color: #FEFBFC;
+}
+.bigimg img {
+  width: 80%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+}
+.highlight {
+  color: #BB7439;
+  font-weight: bold;
+}
+
+.btn-book {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  color: #FEFBFC;
+  background-color: #BB7439;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  cursor: pointer;
+  font-family: 'Reddit Sans Condensed', sans-serif;
+}
+
+.btn-book:hover {
+  background-color: #A36332;
+}
+
+
+.btn-book-nav {
+  display: inline-block;
+  padding: 8px 15px; /* Match padding with nav items */
+  font-size: 1.25rem; /* Match font size with nav items */
+  color: #FEFBFC;
+  background-color: #BB7439;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  cursor: pointer;
+  font-family: 'Reddit Sans Condensed', sans-serif;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  margin-left: 15px; /* Add spacing between nav items and button */
+}
+
+.btn-book-nav:hover {
+  background-color: #9a5e2e;
+  transform: scale(1.05);
+}
+
+
+.para-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  margin-left: 10%;
+  margin-right: 10%;
+  font-size: 1.5rem;
+}
+
+.content {
+  display: none; /* Initially hide all content */
+}
+
+.content.active {
+  display: block; /* Show active content */
+}
+
+/* Center the container and align content */
+.social-media-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+/* Styling for social media buttons */
+.social-media-buttons {
+  display: flex;
+  gap: 20px; /* Space between social media buttons */
+  margin-bottom: 20px; /* Gap between social media and Contact Us button */
+}
+
